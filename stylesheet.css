@@ -1,0 +1,146 @@
+    body {
+        background-color: lightgray;
+    }
+  
+  .nav-container{
+    display: flex;
+    width: 100%;
+    height: 75px;
+    top: 0px;
+    background-color: #2a43cc;
+  }
+
+  .nav-buttons{
+    display: inline-flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+  }
+
+  .nv-btn{
+    background-color: lightgrey;
+    border: transparent;
+    border-radius: 5px 30px;
+    min-width: 100%;
+    min-height: 30px;
+    color: #2a43cc;   
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 18.75px;
+  }
+  
+  .nv-log{
+    background-color: #2a43cc;
+    border: transparent;
+    border-radius: 5px 30px;
+    float: right;
+    margin-right: 25px;
+    transform: translateY(-100%)
+  }
+  
+  .nv-btn, .nv-log{
+    font-weight: bold;
+  }
+  
+  .nv-btn:hover, .nv-log:hover{
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 25px black;
+  }
+
+  .Roster {
+    background-color: #2a43cc;
+    color: whitesmoke;
+    text-align: center;
+    border: 1px solid whitesmoke;
+  }
+
+  colgroup {
+    box-sizing: content-box 20%; 
+  }
+
+  .Coaches {
+    background-color: black;
+    color: lightgrey;
+    text-align: center;
+    border: 1px solid lightgrey;
+  }
+
+  .join {
+    background-color: lightgrey;
+    text-align: center;
+    font-size: 48px;
+    width: 50%;
+    height: 173.63px;
+    border: transparent;
+  }
+
+  .daysoftheweek {
+    background-color: #2a43cc;
+    color: lightgrey;
+    text-align: center;
+    border: 1px solid lightgrey;
+  }
+
+  .days {
+    max-width: 16.667%;
+  }
+
+  .center {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .feedback {
+    font-size: xx-large;
+    color: #2a43cc;
+  }
+
+  .formcontainer{
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+  }
+
+  .floatleft {
+    float: left;
+  }
+
+  .floatright {
+    float: right;
+  }
+
+  .container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%;
+  }
+
+  .embeddedvideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  a:link {
+    color: lightgrey;
+  }
+
+  a:hover {
+    color: #2a43cc;
+  }
+
+  a:visited {
+    color: #2a43cc;
+  }
+
+  a:active {
+    color: lightgrey;
+  }
+
+  
